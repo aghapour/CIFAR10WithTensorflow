@@ -1,0 +1,37 @@
+train output
+====================================================================
+"C:\Program Files\Anaconda3\envs\CondaEnvironmentWin\python.exe" "C:/Users/Ahad/Dropbox/Ozu/Ozu Courses/2.2 CS 466.A & CS 566.A  Introduction to Deep Learning/02 Assignment CIFAR10/Ahad-Aghapour-S011178/src/cifar10_train.py"
+Filling queue with 20000 CIFAR images before starting to train. This will take a few minutes.
+WARNING:tensorflow:From C:/Users/Ahad/Dropbox/Ozu/Ozu Courses/2.2 CS 466.A & CS 566.A  Introduction to Deep Learning/02 Assignment CIFAR10/Ahad-Aghapour-S011178/src/cifar10_train.py:62: all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Please use tf.global_variables instead.
+WARNING:tensorflow:From C:/Users/Ahad/Dropbox/Ozu/Ozu Courses/2.2 CS 466.A & CS 566.A  Introduction to Deep Learning/02 Assignment CIFAR10/Ahad-Aghapour-S011178/src/cifar10_train.py:68: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+2017-05-06 23:14:30.249318: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:14:30.249656: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:14:30.249969: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:14:30.250283: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:14:30.251232: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:14:35.915597: step 0, loss = 4.67 (42.6 examples/sec; 3.002 sec/batch)
+2017-05-06 23:14:42.509980: step 10, loss = 4.66 (262.3 examples/sec; 0.488 sec/batch)
+2017-05-06 23:14:47.165251: step 20, loss = 4.63 (273.5 examples/sec; 0.468 sec/batch)
+2017-05-06 23:14:51.917528: step 30, loss = 4.62 (260.1 examples/sec; 0.492 sec/batch)
+.
+.
+.
+
+
+
+evaluate output
+====================================================================
+"C:\Program Files\Anaconda3\envs\CondaEnvironmentWin\python.exe" "C:/Users/Ahad/Dropbox/Ozu/Ozu Courses/2.2 CS 466.A & CS 566.A  Introduction to Deep Learning/02 Assignment CIFAR10/Ahad-Aghapour-S011178/src/cifar10_eval.py"
+2017-05-06 23:17:18.468996: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:17:18.469319: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:17:18.469632: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:17:18.469919: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 23:17:18.470202: W c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-05-06 19:57:23.443634: precision @ 1 = 0.930
+.
+.
+.
